@@ -1,0 +1,22 @@
+{
+  "schema_version": "1.0",
+  "repository": "x4-router",
+  "fleet_id": 2,
+  "role": "routing",
+  "boundary": "independent-parent",
+  "interface": "gRPC",
+  "modules": ["routing", "policies", "registry"],
+  "source_ownership": "repository-local",
+  "completion": {"level": 0, "state": "OBSERVED"},
+  "security": {"secrets_policy": "deny-commit", "cross_repo_source_imports": "forbidden"},
+  "evidence": {
+    "bootstrap": "VALIDATED",
+    "implementation": "UNKNOWN",
+    "tests": "UNKNOWN",
+    "security": "UNKNOWN",
+    "build": "UNKNOWN",
+    "ci": "UNKNOWN",
+    "deployment": "UNKNOWN",
+    "production": "UNKNOWN"
+  }
+}
